@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#cont {
+  width: 100vw;
+  height: 100vh;
+  background: #ccc;
+}
+
+#idea {
+  position: absolute;
+  transform-origin: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.original {
+  font-size: 160px;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  transform: translate(50vw, 50vh);
+  z-index: 10;
+}
+
+.cloned {
+  font-size: 50px;
+  width: 60px;
+  height: 75px;
+  margin-left: -30px;
+  margin-top: -37.5px;
+  z-index: 1;
+}
